@@ -4,7 +4,7 @@ Source code for logs-analysis project.
 # Instalation
 
 #### Launching the Vigrant Virtual Machine
-  1. Download udacity vigrant instance & downlaod the oracle VM from oracle  
+  1. Download udacity vigrant instance & download the oracle VM from oracle  
 
 #### Downlaod the data
   1. Launch the Vagrant VM inside Vagrant 
