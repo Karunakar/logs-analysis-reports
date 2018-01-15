@@ -38,11 +38,13 @@ Source code for logs-analysis project.
   ```
   
   
-```python
-    Download this project & unzip 
+  3. Download & run the log analysis reports:
+  
+  ```
+	Download this project & unzip 
     cd logs-analysis
     python3 logs-analysis.py
-
+  ```
 
 ### License
 This is opensource & udacity project.
