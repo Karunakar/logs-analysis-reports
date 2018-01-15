@@ -36,8 +36,15 @@ Source code for logs-analysis project.
     $ vagrant ssh
   ```
   ```
+  
+  
+```python
+    Download this project & unzip 
+    cd logs-analysis
+    python3 logs-analysis.py
+
 
 ### License
-This is opensource.
-Email me if you  need any help revurikarna@gmail.com
+This is opensource & udacity project.
+Email me if you need any help revurikarna@gmail.com
 
