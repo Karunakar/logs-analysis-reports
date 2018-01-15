@@ -64,7 +64,7 @@ query_to_get_date_errors_morethan_1 = "select error_date, percentage from ( \
     select error_date, round((sum(requests)/(select count(*) from log where \
     substring(cast(log.time as text), 0, 11) = error_date) * 100), 2) as \
     percentage from (select substring(cast(log.time as text), 0, 11) as error_date, \
-    count(*) as requests from log where status like '%404%' group by error_date) \
+    count(*) as requests from log where status like '%4%' group by error_date) \
     as log_percentage group by error_date order by percentage desc) as last_query \
     where percentage >= 1  "
 
