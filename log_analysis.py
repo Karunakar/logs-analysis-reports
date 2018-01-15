@@ -55,7 +55,7 @@ join authors on articles.author = authors.id inner join log \
 
 
 get_famous_authors = get_query_results(query_for_most_popular_authors)
-get_famous_authors = display_error_results(get_famous_authors)
+get_famous_authors = display_query_results(get_famous_authors)
 
 print("*******************************************************")
 print("\n")
