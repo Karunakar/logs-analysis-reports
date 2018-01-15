@@ -26,7 +26,7 @@ def display_query_results(query_results):
 def display_error_results(query_results):
     for i in range(len(query_results)):
         print(
-            "    %s -- %s  -- %s "%
+            "    %s -- %s   %s "%
             (query_results[i][0], query_results[i][1], "Errors"))
 
 print("*******************************************************")
