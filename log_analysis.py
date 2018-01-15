@@ -32,9 +32,9 @@ def display_error_results(query_results):
 print("*******************************************************")
 print("1. What are the most popular three articles of all time?")
 
-query_for_first_3_records = "SELECT count(title) \
+query_for_first_3_records = "SELECT count(*) \
     AS author_views, title FROM articles, log \
-    WHERE log.path LIKE concat('%',articles.slug) \
+    WHERE log.path like concat('%', articles.slug, '%') \
     GROUP BY articles.title, articles.author ORDER BY author_views DESC  limit 3"
 
 

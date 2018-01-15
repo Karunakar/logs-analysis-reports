@@ -1,4 +1,4 @@
-# Portfolio_website
+# Logs-analysis
 Source code for logs-analysis project.
 
 # Instalation
